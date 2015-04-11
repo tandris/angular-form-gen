@@ -1,6 +1,6 @@
 {
   "name": "fa-angular-form-gen",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Fork of angular-form-gen to fix RegEx errors, and utilize FontAwesome",
   "homepage": "https://github.com/PranavSathy/angular-form-gen",
   "main": "gulp",

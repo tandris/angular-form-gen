@@ -18,7 +18,7 @@
     "schema",
     "generator"
   ],
-  "version": "0.1.0",
+  "version": "0.1.1",
   "authors": [
     "Pranav Sathy https://github.com/PranavSathy",
     "Null McNull <noreplies@hotmail.com> https://github.com/McNull"
@@ -33,6 +33,7 @@
     "gulp-tasks",
     "src",
     "dest",
+    "projectFilesBackup",
     "/build-config.js",
     "/gulpfile.js",
     "/package.json",
