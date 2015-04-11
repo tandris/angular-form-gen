@@ -79,24 +79,24 @@ module.exports = function (gulp, module) {
           contents: '})(angular);'
         }
       }))
-      .pipe(sourcemaps.init())
+      // .pipe(sourcemaps.init())
       .pipe(concat(module.name + '.js'))
       .pipe(ngAnnotate())
-      .pipe(sourcemaps.write('.', { sourceRoot: '../src/' + module.name }))
+      // .pipe(sourcemaps.write('.', { sourceRoot: '../src/' + module.name }))
       .pipe(gulp.dest(module.folders.dest))
 
       // Create the minified version
 
-      .pipe(sourcemaps.init())
-      .pipe(filter(function(file) {
+      // .pipe(sourcemaps.init())
+      // .pipe(filter(function(file) {
 
-        // Filter out the previous map file.
-        return path.extname(file.path) != '.map';
+      //   // Filter out the previous map file.
+      //   return path.extname(file.path) != '.map';
 
-      }))
+      // }))
       .pipe(rename(module.name + '.min.js'))
       .pipe(uglify({ preserveComments: 'some' }))
-      .pipe(sourcemaps.write('.', { includeContent: false, sourceRoot: './' }))
+      // .pipe(sourcemaps.write('.', { includeContent: false, sourceRoot: './' }))
       .pipe(gulp.dest(module.folders.dest));
   }
 
