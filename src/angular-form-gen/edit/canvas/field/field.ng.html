@@ -4,16 +4,16 @@
     <div class="fg-field-overlay-drag-bottom" dq-drag-enter="dragPlaceholder.index = ($index + 1)"></div>
     <div class="btn-toolbar btn-toolbar-right">
       <button class="btn btn-default btn-xs" type="button" ng-disabled="field.$_displayProperties && field.$_invalid" ng-class="{ 'active': field.$_displayProperties }" ng-click="toggleProperties(field)" title="Configure this field.">
-        <span class="glyphicon glyphicon-wrench"></span>
+        <span class="fa fa-wrench"></span>
       </button>
       <button class="btn btn-default btn-xs" type="button" ng-click="schemaCtrl.swapFields($index - 1, $index)" ng-disabled="$index === 0" title="Move up">
-        <span class="glyphicon glyphicon-arrow-up"></span>
+        <span class="fa fa-arrow-up"></span>
       </button>
       <button class="btn btn-default btn-xs" type="button" ng-click="schemaCtrl.swapFields($index, $index + 1)" ng-disabled="$index === schema.fields.length - 1" title="Move down">
-        <span class="glyphicon glyphicon-arrow-down"></span>
+        <span class="fa fa-arrow-down"></span>
       </button>
       <button class="btn btn-default btn-xs btn-danger" type="button" ng-click="schemaCtrl.removeField($index)" title="Remove">
-        <span class="glyphicon glyphicon-trash"></span>
+        <span class="fa fa-trash"></span>
       </button>
     </div>
   </div>
