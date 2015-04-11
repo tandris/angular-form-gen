@@ -10,6 +10,6 @@ Many projects utilize FontAwesome icons as their go-to icon family. This fork of
 
 ## Added Tasks
 
-### grunt dist-no-test
+### gulp dist-no-test
 
 All this does is just cleans and compiles the codes without test. Useful for quick builds.
