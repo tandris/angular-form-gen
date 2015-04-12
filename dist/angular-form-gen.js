@@ -1,5 +1,5 @@
 /*!
-   fa-angular-form-gen v0.1.0
+   fa-angular-form-gen v0.1.1
    (c) 2015 Pranav Sathy https://github.com/PranavSathy/angular-form-gen
    License: MIT
 */
@@ -347,14 +347,14 @@ fg.directive('fgBindExpression', ["$interpolate", function ($interpolate) {
 
   function buildWatchExpression(interpolateFn) {
     var sb = [];
-    var parts = interpolateFn.parts;
+    var parts = interpolateFn.expressions;
     var ii = parts.length;
 
     while (ii--) {
       var part = parts[ii];
 
-      if (part.exp && !part.exp.match(/^\s*$/)) {
-        sb.push(part.exp);
+      if (part && !part.match(/^\s*$/)) {
+        sb.push(part);
       }
     }
 
