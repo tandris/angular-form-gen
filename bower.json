@@ -9,7 +9,7 @@
   "homepage": "https://github.com/PranavSathy/angular-form-gen",
   "repository": {
     "type": "git",
-    "url": "git@github.com:PranavSathy/angular-form-gen.git"
+    "url": "git@github.com:tandris/angular-form-gen.git"
   },
   "keywords": [
     "angularjs",
@@ -18,8 +18,9 @@
     "schema",
     "generator"
   ],
-  "version": "0.1.2",
+  "version": "0.2.0",
   "authors": [
+    "Andras Toth https://github.com/tandris",
     "Pranav Sathy https://github.com/PranavSathy",
     "Null McNull <noreplies@hotmail.com> https://github.com/McNull"
   ],
@@ -40,12 +41,11 @@
     "/karma.conf.js"
   ],
   "dependencies": {
-    "angular": "^1.3.0",
-    "bootstrap": "~3.3.4"
+    "angular": "^1.4.7"
   },
   "devDependencies": {
-    "angular-route": "~1.2.21",
-    "angular-mocks": "~1.2.21",
+    "angular-route": "~1.4.7",
+    "angular-mocks": "~1.4.7",
     "jquery": "1.*",
     "respond": "~1.4.2",
     "html5shiv": "~3.7.2",
@@ -53,8 +53,8 @@
     "angular-inform": "~0.0.12",
     "angular-block-ui": "~0.1.0",
     "angular-markdown-text": "~0.0.2",
-    "angular-sanitize": "~1.2.21",
-    "angular-animate": "~1.2.21"
+    "angular-sanitize": "~1.4.7",
+    "angular-animate": "~1.4.7"
   },
   "overrides": {
     "respond": {
@@ -71,6 +71,6 @@
     }
   },
   "resolutions": {
-    "angular": "^1.3.0"
+    "angular": "^1.4.0"
   }
 }

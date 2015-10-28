@@ -1,8 +1,8 @@
 {
-  "name": "fa-angular-form-gen",
-  "version": "0.1.2",
-  "description": "Fork of angular-form-gen to fix RegEx errors, and utilize FontAwesome",
-  "homepage": "https://github.com/PranavSathy/angular-form-gen",
+  "name": "simple-angular-form-gen",
+  "version": "0.2.0",
+  "description": "Fork of angular-form-gen to remove bootstrap",
+  "homepage": "https://github.com/tandris/angular-form-gen",
   "main": "gulp",
   "scripts": {
     "test": "gulp test"
