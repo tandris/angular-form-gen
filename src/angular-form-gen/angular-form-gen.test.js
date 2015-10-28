@@ -5,7 +5,7 @@ describe('fgConfigProvider', function () {
   beforeEach(function () {
     // Initialize the service provider 
     // by injecting it to a fake module's config block
-    var fakeModule = angular.module('this.is.so.fake', function () {});
+    var fakeModule = angular.module('this.is.so.fake', []);
     fakeModule.config(function (fgConfigProvider) {
       configProvider = fgConfigProvider;
     });

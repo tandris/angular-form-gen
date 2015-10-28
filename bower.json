@@ -1,5 +1,5 @@
 {
-  "name": "fa-angular-form-gen",
+  "name": "simple-angular-form-gen",
   "description": "Dynamic drag and drop angular-js form creation, utilizing FontAwesome",
   "main": [
     "dist/angular-form-gen.js",

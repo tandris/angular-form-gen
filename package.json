@@ -14,7 +14,7 @@
     "schema",
     "generator"
   ],
-  "author": "Pranav Sathy",
+  "author": "Andras Toth",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
