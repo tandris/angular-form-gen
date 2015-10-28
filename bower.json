@@ -6,7 +6,7 @@
     "dist/angular-form-gen.css"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/PranavSathy/angular-form-gen",
+  "homepage": "https://github.com/tandris/angular-form-gen",
   "repository": {
     "type": "git",
     "url": "git@github.com:tandris/angular-form-gen.git"
